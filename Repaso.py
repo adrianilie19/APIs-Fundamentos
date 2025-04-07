@@ -11,9 +11,9 @@ if personaje:
     respuesta = personaje[0]["character"]
 
     print(f"Frase: {quote}")
-    personajIntroducido = input("Tu repuesta: ")
+    personajIntroducido = input("Tu repuesta es: ")
 
     if personajIntroducido == respuesta:
-        print("Correcto!")
+        print("¿Acertaste!")
     else:
         print(f"El personaje era: {respuesta}")
