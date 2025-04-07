@@ -17,5 +17,3 @@ if personaje:
         print("Correcto!")
     else:
         print(f"El personaje era: {respuesta}")
-else:
-    print("Error")
